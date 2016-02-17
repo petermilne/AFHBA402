@@ -99,7 +99,7 @@ HOST2=$(host_good $HOST2)
 
 
 
-if [ $HOST1 ] && [ $HOST2]; then
+if [ $HOST1 ] && [ $HOST2 ]; then
 	echo HOST1:$HOST1 HOST2:HOST2 PORT1:$PORT1 PORT2:$PORT2 OK1:$OK1
 	if [ "$PORT1" != "$PORT2" ]; then
 		echo "ERROR: connected to different COMM ports at ACQ2106, please swap"
